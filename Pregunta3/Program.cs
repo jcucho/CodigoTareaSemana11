@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Pregunta3;
+
+try
+{
+    string cadena = "s";
+    Console.WriteLine(Functions.convertirNumero(cadena));
+}
+catch (Exception e)
+{
+    Console.WriteLine(e.Message);
+}
+finally
+{
+    Console.Read();
+}
